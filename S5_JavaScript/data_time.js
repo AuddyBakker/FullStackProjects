@@ -1,0 +1,3 @@
+function buttonDate() {
+  alert(Date());
+}

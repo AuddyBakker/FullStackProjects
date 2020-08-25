@@ -1,0 +1,79 @@
+h1 {
+  border: 10px solid blue;
+  border-radius: 15px;
+  text-align: center;
+}
+
+body {
+  background-color: #A4EBA8;
+}
+
+.welcome {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #EAF0A8;
+  left: 200px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
+
+.paintings {
+  border: 5px solid orange;
+  margin: 30px;
+}
+
+img {
+  width: 20%;
+  filter: grayscale(100%);
+}
+
+img:hover {
+  filter: grayscale(0%);
+}
+
+img:hover .titles {
+  display: block;
+}
+
+.shopLink {
+  background-color: #F0A9A8;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+#disclosure {
+  background-color: blue;
+  position: relative;
+  top: 300px;
+  left: 25px;
+  width: 250px;
+  height: 200px;
+
+}
+
+.copyright {
+  background-color: yellow;
+  width: 250px;
+}
+
+#descriptionText {
+  padding-top: 30px;
+}
+
+.titles > p {
+  float: left;
+  padding-right: 230px;
+}
+
+.titles {
+  position: relative;
+  left: 30px;
+  display: none;
+}
+
+.paintings:hover .titles {
+  display: block;
+}

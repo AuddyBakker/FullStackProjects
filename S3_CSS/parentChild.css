@@ -1,0 +1,11 @@
+div > p {
+  background-color: yellow;
+}
+
+span > p {
+  background-color: blue;
+}
+
+div > h2 {
+  background-color: pink;
+}

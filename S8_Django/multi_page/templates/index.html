@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'main.css' %}">
+  </head>
+  <body>
+    <h1>Home</h1>
+    <p>This page needs some styling!...</p>
+    <button onclick="buttonFunc()">Click me</button>
+    <img src="{% static 'failure.jpg' %}" alt="No Image">
+
+    <script type="text/javascript" src="{% static 'main.js' %}">
+
+    </script>
+  </body>
+</html>

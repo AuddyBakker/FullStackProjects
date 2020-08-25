@@ -1,0 +1,2 @@
+type .\iwitw.txt -tail 10
+type .\iwitw.txt -head 10

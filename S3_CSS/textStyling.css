@@ -1,0 +1,18 @@
+body {
+  background-color: #E4F2F2
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: gold;
+}
+
+p {
+  font-size: 30px;
+  font-family: fantasy;
+  color: #FF8817;
+  text-transform: lowercase;
+  line-height: 70px;
+  text-indent: 80px;
+}

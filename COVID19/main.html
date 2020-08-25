@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>US COVID-19 Data</title>
+  </head>
+  <body>
+    <h1>US COVID-19 Data</h1>
+    <p>Select State</p>
+    <ul>
+      <a href="california.html"><li>California</li></a>
+      <a href="utah.html"><li>Utah</li></a>
+      <a href="michigan.html"><li>Michigan</li></a>
+    </ul>
+
+    <iframe src="https://createaclickablemap.com/map.php?&id=95255&maplocation=false&online=true" width="900" height="525" style="border: none;"></iframe>
+
+
+    <script>
+      if (window.addEventListener) {
+        window.addEventListener("message", function(event) {
+          if(event.data.length >= 22) {
+            if( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT")
+            location = event.data.substr(22);
+          }
+        }, false);
+      }
+      else if (window.attachEvent){
+        window.attachEvent("message", function(event) {
+          if( event.data.length >= 22) {
+            if ( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT")
+            location = event.data.substr(22);
+          }
+           }
+           , false);
+         } </script>
+
+    <!-- Dropdown bar code:
+    <select class="" name="">
+      <a href="california.html"><option value="">California</option></a>
+      <a href="utah.html"><option value="">Utah</option></a>
+      <a href="michigan.html"><option value="">Michigan</option></a>
+    </select>
+   -->
+
+  </body>
+</html>

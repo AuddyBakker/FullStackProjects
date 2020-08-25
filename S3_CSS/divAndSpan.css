@@ -1,0 +1,12 @@
+.colorGreen {
+  background-color: green;
+}
+
+#colorYellow {
+  background-color: yellow;
+}
+
+.imageClass {
+  width: 400px;
+  align-items: left;
+}

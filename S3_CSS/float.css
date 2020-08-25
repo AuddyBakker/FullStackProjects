@@ -1,0 +1,12 @@
+img {
+  width: 30%;
+  float: right;
+}
+
+div {
+  width: 500px;
+}
+
+.leftImg {
+  float: left;
+}

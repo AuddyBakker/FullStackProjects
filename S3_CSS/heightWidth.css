@@ -1,0 +1,25 @@
+.littleBox {
+  height: 10px;
+  width: 200px;
+  background-color: blue;
+  position: relative;
+  left: 100px;
+}
+
+.mediumBox {
+  height: 50px;
+  width: 200px;
+  background-color: #751054;
+  position: relative;
+  left: 150px;
+  top: 20px;
+}
+
+.largeBox {
+  height: 100px;
+  width: 200px;
+  background-color: #107515;
+  position: relative;
+  left: 250px;
+  top: 50px;
+}

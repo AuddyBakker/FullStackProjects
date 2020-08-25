@@ -1,0 +1,28 @@
+body {
+  background-color: #25CCC9
+}
+
+h1 {
+  text-align: center;
+  color: #116CAD;
+  font-family: cursive;
+}
+
+p {
+  text-indent: 30px;
+  color: #116CAD;
+  font-family: cursive;
+}
+
+a {
+  color: blue;
+}
+
+#imageID {
+  border: 4px solid green;
+}
+
+.pracImages {
+  width: 400px;
+  align-items: left;
+}

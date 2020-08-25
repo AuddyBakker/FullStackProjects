@@ -1,0 +1,11 @@
+body {
+  background-color: #F0B9C6;
+  font-family: monospace;
+}
+
+div {
+  text-align: center;
+  background-color: #D680ED;
+  border-radius: 30px;
+  padding: 25px;
+}

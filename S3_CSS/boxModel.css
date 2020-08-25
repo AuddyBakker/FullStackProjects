@@ -1,0 +1,7 @@
+p {
+  border: 5px solid green;
+  /* padding is space between element and its border */
+  padding: 10px;
+  /* margin is the space between elements */
+  margin-top: 30px;
+}

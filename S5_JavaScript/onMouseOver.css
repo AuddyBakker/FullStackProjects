@@ -1,0 +1,13 @@
+#divOne {
+  margin: 60px;
+  background-color: red;
+  height: 80px;
+  width: 150px;
+}
+
+#divTwo {
+  margin: 20px;
+  background-color: orange;
+  height: 180px;
+  width: 50px;
+}

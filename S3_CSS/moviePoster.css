@@ -1,0 +1,33 @@
+body {
+  background-color: #49434A;
+}
+
+div {
+  background-color: #F7E07E
+}
+
+h1 {
+  color: pink;
+  font-family: fantasy;
+  text-align: center;
+}
+
+.image_ {
+  position: relative;
+  left: 100px;
+}
+
+p {
+  font-size: 24px;
+  color: #F71F07;
+}
+
+img {
+  width: 20%;
+  padding: 50px;
+}
+
+#Copyright {
+position: absolute;
+bottom: 10px;
+}

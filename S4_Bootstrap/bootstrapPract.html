@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrapPract.css">
+    <meta charset="utf-8">
+    <title>US Covid-19 Data</title>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h1 class="display-4">US Covid-19 Data</h1>
+      <p class="lead">Up-to-date Covid-19 for the United States of America and all 50 states.</p>
+      <hr class="my-4">
+      <p>All data extracted from the New York Times covid-19-data GitHub</p>
+      <a class="btn btn-primary btn-lg" href="https://github.com/nytimes/covid-19-data" role="button">NYTimes Covid-19 Data</a>
+    </div>
+
+
+    <iframe src="https://createaclickablemap.com/map.php?&id=95261&maplocation=false&online=true" width="900" height="525" style="border: none;"></iframe>
+    <div class="map">
+
+      <script>if (window.addEventListener){ window.addEventListener("message", function(event) { if(event.data.length >= 22) { if( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } else if (window.attachEvent){ window.attachEvent("message", function(event) { if( event.data.length >= 22) { if ( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } </script>
+    </div>
+
+
+
+
+
+
+    <div class="btn-group-vertical">
+      <button type="button" class="btn btn-secondary"><a href="california.html">California</a></button>
+      <button type="button" class="btn btn-secondary"><a href="michigan.html">Michigan</a></button>
+      <button type="button" class="btn btn-secondary"><a href="utah.html">Utah</a></button>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>

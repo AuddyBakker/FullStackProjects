@@ -1,0 +1,26 @@
+h1 {
+  color: #484B4F;
+}
+
+p {
+  color: #484B4F;
+}
+
+ol {
+  color: #484B4F;
+  background-color: #97B2CC;
+  border: 3px solid #383AB0;
+}
+
+body {
+  background-color: #80D4ED;
+}
+
+img {
+  border: 3px solid pink;
+}
+
+table, td, th {
+  border: 3px solid #383AB0;
+  background: #C4C8CF;
+}

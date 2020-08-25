@@ -1,0 +1,27 @@
+.navbar {
+  background-color: #86DFEB;
+}
+
+.nav-item {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: 1px solid blue;
+}
+
+.jumbotron {
+  background-image: url("images/jumbotron.jpg")
+}
+
+.jumbotron p {
+  color: orange;
+  background-color: white;
+}
+
+.jumbotron h1 {
+  color: orange;
+  background-color: white;
+}
+
+.card {
+  background-color: yellow;
+}

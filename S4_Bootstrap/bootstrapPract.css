@@ -1,0 +1,9 @@
+.btn-group-vertical > button {
+  position: fixed;
+  left: 5px;
+}
+
+.map {
+  align-items: center;
+  /* left: 10px; */
+}
